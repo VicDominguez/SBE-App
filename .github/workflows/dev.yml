@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - dev
+    tags:
+      - '*alpha*'
+      - '*beta*'
+      - '*rc*'
 # jobs are run in parallel on different machines
 # all steps run in series
 jobs:
@@ -23,7 +27,7 @@ jobs:
         run: ./gradlew check
       - name: Upload Reports
         uses: actions/upload-artifact@v3
+        if: always()
         with:
           name: test-reports
           path: app/build/reports
-          if: always()
