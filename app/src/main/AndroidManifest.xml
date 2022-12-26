@@ -6,6 +6,8 @@
         <package android:name="com.google.android.apps.healthdata" />
     </queries>
 
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
     <application
         android:name=".app.MainApplication"
         android:allowBackup="true"

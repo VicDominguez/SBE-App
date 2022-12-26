@@ -141,4 +141,5 @@
     <string name="cooper_test">Cooper test</string>
     <string name="multistage_fitness_test">Multistage fitness test</string>
     <string name="rockport_fitness_test">Rockport fitness test</string>
+    <string name="mainChannelName">General notifications</string>
 </resources>

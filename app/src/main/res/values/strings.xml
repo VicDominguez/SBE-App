@@ -8,6 +8,8 @@
     <string name="trends_screen_label">Tendencias</string>
     <string name="settings_screen_label">Ajustes</string>
 
+    <!-- Notifications -->
+    <string name="mainChannelName">Notificaciones generales</string>
 
     <!-- Available data -->
     <string name="heart_rate">Pulsaciones</string>
